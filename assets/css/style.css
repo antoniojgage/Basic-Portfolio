@@ -1,121 +1,209 @@
-    head {
-        background-color: #ffffff;
-        border-color: #cccccc;
-    }
-    
-    html {
-        background-image: url('file:C://Users/AntonioGage/OneDrive/Documents/GitHub/Basic-Portfolio/assets/images/sayagata-400px.png');
-    }
-    
-    footer {
-        background-color: #666666;
-        position: absolute;
-        bottom: 0px;
-        width: 960px;
-        height:200px;
-    }
-    
-    h1 {
-        font-size: 35px;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-        width: 100%;
-        height: 100px;
-        color: white;
-        background-color: #4aaaa5;
-    }
-    
-    h2 {
-        font-size: 30px;
-        width: 1024px;
-        margin: 0;
-        line-height: 200px;
-        color: #4aaaa5;
-        line-height: 1.5;
-        padding-left:10px;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-    }
-    
-    body {
-        font-color: #333333;
-        margin: 0;
-        padding: 0;
-        width: 650px;
-    }
-    
-    a {
-        color: #d21034
-    }
-    
-    p {
-        font-size: 25px;
-        text-align: left;
-    }
-    
-    img {
-        display: block;
-        margin: auto;
-        
-        width: 200px;
-    }
-    
-    ol,
-    li {
-       
-        color: black;
-       
-    }
+head {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
 
-    
-    .container {
-        /*color: #000000;*/
-        /*background-color:gray;*/
-        width: 960px;
-        margin: auto;
-        /*float:left;*/
-    }
-    
-    .contact-img {
-        width: 100px;
-        height: 100px;
-        margin: 0px;
-        display: block;
-        float: left;
-        padding: 10px;
-    }
-    
-    #main-bio {
-        float: left;
-        width: 60%;
-        background-color: #ffffff;
-        padding-left:10px;
-    }
-    
-    #contact-info {
-        float: left;
-        width: 280px;
-        margin-left: 20px;
-        background-color: white;
-    }
-    
-    #bio-image {
-        float: left;
-        width: 200px;
-        margin: 20px;
-    }
-    
-    #Main-Name {
-        width: 300px;
-        line-height: 3;
-    }
+html {
+    background-image: url('file:C://Users/AntonioGage/OneDrive/Documents/GitHub/Basic-Portfolio/assets/images/sayagata-400px.png');
+}
 
-    #tealline {
-    	background-color:#4aaaa5;
-		background-size: 20px;
-		height: 10px;
-		margin: auto;
-		border:0;
-    }
-    /*
+footer {
+    background-color: #666666;
+    overflow: auto;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+   	color:white;
+
+}
+
+h1 {
+    font-size: 35px;
+    color: white;
+    background-color: #4aaaa5;
+    margin: auto;
+}
+
+h3 {
+    color: black;
+    float: right;
+    padding: 10px;
+}
+
+h4{
+	color:white;
+}
+
+h2 {
+    font-size: 30px;
+    width: 1024px;
+    margin: 0;
+    line-height: 200px;
+    color: #4aaaa5;
+    line-height: 1.5;
+    padding-left: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+    font-color: #333333;
+    margin: 0;
+    padding: 0;
+    /*width: 650px;*/
+}
+
+a {
+    color: #d21034
+}
+
+p {
+    font-size: 25px;
+    text-align: left;
+    margin: 5%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+ol,
+li {
+    color: black;
+}
+
+.container {
+    margin: auto;
+    padding-left: 10%;
+}
+
+.navigation {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: white;
+    top: 0;
+    margin-bottom: 2%;
+    z-index: 3;
+}
+
+.contact-img {
+    width: 70px;
+    height: 70px;
+    margin: 0px;
+    display: block;
+    float: left;
+    padding: 10px;
+    overflow: auto;
+}
+
+#main-bio {
+    float: left;
+    width: 60%;
+    background-color: #ffffff;
+}
+
+#contact-info {
+    float: left;
+    width: 280px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
+    margin: 20px;
+}
+
+#Main-Name {
+    width: 33.3%;
+    line-height: 3;
+    float: left;
+    padding-left: 10%;
+    text-align: center;
+}
+
+#tealline {
+    background-color: #4aaaa5;
+    background-size: 20px;
+    height: 10px;
+    margin: auto;
+    border: 0;
+}
+
+#grayline {
+    background-color: #d3d3d3;
+    background-size: 20px;
+    height: 10px;
+    margin: auto;
+    border: 0;
+    width: 100%;
+    box-shadow: 30px 20px 5px black;
+}
+
+#links {
+    background-color: white;
+    float: right;
+    padding: 20px;
+    margin-top: auto;
+    padding-bottom: 0px;
+}
+
+.center {
+    text-align: center;
+    float: none;
+}
+
+.portfolio-img {
+    position: relative;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.spacing {
+    margin: 2%;
+}
+
+#portfolio-label {
+    font-size: 80%;
+    color: white;
+    background-color: #4aaaa5;
+    margin: auto;
+    margin-bottom: 2%;
+
+}
+
+.box {
+    background: #4aaaa5;
+    height: 10%;
+    position: relative;
+    bottom: 30%;
+    width: 100%;
+}
+
+.box-2 {
+    left: 40px;
+    position: absolute;
+}
+
+.box-3 {
+    bottom: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    margin: 0px;
+    color: white;
+    line-height: 2;
+}
+
+
+/*
 Additional Specifcations
 
 Colors: Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
